@@ -2,8 +2,8 @@
 trigger:
   none
 
-agent:
-  vmImage:ubuntu-latest
+pool:
+  vmImage: ubuntu-latest
 
 stages:
   - stage:
